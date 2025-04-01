@@ -21,4 +21,4 @@ env CGO_ENABLED=0 GOOS=darwin GOARCH=arm64 go build -ldflags "-s -w" -o ./rmmage
 
 chmod +x rmmagent-macos-arm64
 
-sudo ./rmmagent-macos-arm64 -m install --api https://api.fegroup.it --client-id 1 --site-id 5 --agent-type workstation --auth da5b1220c52e454a53f5c78bde5b177754c2db71717172bccc4871c27638c9f1 --ping
+sudo ./rmmagent-macos-arm64 -m install --api https://api.fegroup.it --client-id 1 --site-id 5 --agent-type workstation --auth <authcode> --ping
